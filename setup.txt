@@ -1,0 +1,10 @@
+
+>>create venv
+pip install -r requirements.txt
+.venv\Scripts\Activate.ps1
+
+>>if errors occurs
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+>> install libraries
+pip install -r requirements.txt
